@@ -2,4 +2,5 @@
 # nginx likes port 80
 
 cat /etc/nnginx/sites-available/default > /etc/nginx/sites-enabled/
-sudo service nginx restart 
+sudo service nginx restart
+rm /run/nginx.pid
